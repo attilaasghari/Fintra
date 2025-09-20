@@ -1,0 +1,82 @@
+body {
+    font-family: 'Vazirmatn', 'Tahoma', sans-serif;
+    font-size: 14px;
+}
+
+/* Fallback if Vazirmatn not loaded */
+@import url('https://fonts.googleapis.com/css2?family=Vazirmatn:wght@400;500;700&display=swap');
+
+/* Load Bootstrap RTL */
+/* Already included via CDN or local file */
+
+.alert {
+    font-size: 16px;
+}
+
+.card {
+    box-shadow: 0 0.1rem 0.5rem rgba(0,0,0,.1);
+}
+
+.list-group-item-action:hover {
+    background-color: #f8f9fa;
+}
+
+.btn-close {
+    margin-right: auto; /* for RTL */
+}
+
+/* Chart container */
+#incomeExpenseChart {
+    max-height: 300px;
+}
+
+/* Persian Date Picker */
+.persian-datepicker-plot-area {
+    direction: rtl;
+}
+
+.persian-datepicker-wrapper {
+    width: 100%;
+}
+
+.persian-datepicker-wrapper input {
+    width: 100%;
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    font-family: 'Vazirmatn', Tahoma, sans-serif;
+    border: 1px solid #ced4da;
+    border-radius: 0.25rem;
+}
+
+.persian-datepicker-wrapper input:focus {
+    color: #495057;
+    background-color: #fff;
+    border-color: #80bdff;
+    outline: 0;
+    box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+}
+/* Header Date Styles */
+#current-date {
+    font-weight: 500;
+    font-size: 0.95rem;
+}
+
+@media (max-width: 768px) {
+    #current-date {
+        font-size: 0.85rem;
+        margin-right: 10px;
+    }
+    
+    .navbar-brand {
+        font-size: 1.1rem;
+    }
+}
+
+/* Date icon animation */
+#current-date i {
+    transition: transform 0.3s ease;
+}
+
+#current-date:hover i {
+    transform: rotate(360deg);
+}

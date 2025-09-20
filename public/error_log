@@ -1,0 +1,99 @@
+[19-Sep-2025 14:26:40 Asia/Tehran] PHP Fatal error:  Uncaught RuntimeException: Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.2.0". You are running 8.1.33. in /home/udpragcf/fintra.vitren.ir/vendor/composer/platform_check.php:26
+Stack trace:
+#0 /home/udpragcf/fintra.vitren.ir/vendor/composer/autoload_real.php(25): require()
+#1 /home/udpragcf/fintra.vitren.ir/vendor/autoload.php(22): ComposerAutoloaderInit90c11d9bcfa36991fdd17457040e1b2b::getLoader()
+#2 /home/udpragcf/fintra.vitren.ir/public/index.php(13): require_once('/home/udpragcf/...')
+#3 {main}
+  thrown in /home/udpragcf/fintra.vitren.ir/vendor/composer/platform_check.php on line 26
+[19-Sep-2025 14:26:42 Asia/Tehran] PHP Fatal error:  Uncaught RuntimeException: Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.2.0". You are running 8.1.33. in /home/udpragcf/fintra.vitren.ir/vendor/composer/platform_check.php:26
+Stack trace:
+#0 /home/udpragcf/fintra.vitren.ir/vendor/composer/autoload_real.php(25): require()
+#1 /home/udpragcf/fintra.vitren.ir/vendor/autoload.php(22): ComposerAutoloaderInit90c11d9bcfa36991fdd17457040e1b2b::getLoader()
+#2 /home/udpragcf/fintra.vitren.ir/public/index.php(13): require_once('/home/udpragcf/...')
+#3 {main}
+  thrown in /home/udpragcf/fintra.vitren.ir/vendor/composer/platform_check.php on line 26
+[19-Sep-2025 14:26:52 Asia/Tehran] PHP Fatal error:  Uncaught RuntimeException: Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.2.0". You are running 8.1.33. in /home/udpragcf/fintra.vitren.ir/vendor/composer/platform_check.php:26
+Stack trace:
+#0 /home/udpragcf/fintra.vitren.ir/vendor/composer/autoload_real.php(25): require()
+#1 /home/udpragcf/fintra.vitren.ir/vendor/autoload.php(22): ComposerAutoloaderInit90c11d9bcfa36991fdd17457040e1b2b::getLoader()
+#2 /home/udpragcf/fintra.vitren.ir/public/index.php(13): require_once('/home/udpragcf/...')
+#3 {main}
+  thrown in /home/udpragcf/fintra.vitren.ir/vendor/composer/platform_check.php on line 26
+[19-Sep-2025 14:47:28 Asia/Tehran] PHP Fatal error:  Uncaught Error: Call to undefined method Morilog\Jalali\Jalalian::jalaliToGregorian() in /home/udpragcf/fintra.vitren.ir/app/Helpers/JalaliHelper.php:42
+Stack trace:
+#0 /home/udpragcf/fintra.vitren.ir/app/Controllers/LoanController.php(76): App\Helpers\JalaliHelper::toGregorian('\xDB\xB1\xDB\xB4\xDB\xB0\xDB\xB4/\xDB\xB0\xDB\xB7/\xDB...')
+#1 /home/udpragcf/fintra.vitren.ir/public/index.php(193): App\Controllers\LoanController->store()
+#2 {main}
+  thrown in /home/udpragcf/fintra.vitren.ir/app/Helpers/JalaliHelper.php on line 42
+[19-Sep-2025 14:47:34 Asia/Tehran] PHP Fatal error:  Uncaught Error: Call to undefined method Morilog\Jalali\Jalalian::jalaliToGregorian() in /home/udpragcf/fintra.vitren.ir/app/Helpers/JalaliHelper.php:42
+Stack trace:
+#0 /home/udpragcf/fintra.vitren.ir/app/Controllers/LoanController.php(76): App\Helpers\JalaliHelper::toGregorian('\xDB\xB1\xDB\xB4\xDB\xB0\xDB\xB4/\xDB\xB0\xDB\xB7/\xDB...')
+#1 /home/udpragcf/fintra.vitren.ir/public/index.php(193): App\Controllers\LoanController->store()
+#2 {main}
+  thrown in /home/udpragcf/fintra.vitren.ir/app/Helpers/JalaliHelper.php on line 42
+[19-Sep-2025 14:52:26 Asia/Tehran] PHP Fatal error:  Uncaught Error: Call to undefined method Morilog\Jalali\Jalalian::jalaliToGregorian() in /home/udpragcf/fintra.vitren.ir/app/Helpers/JalaliHelper.php:42
+Stack trace:
+#0 /home/udpragcf/fintra.vitren.ir/app/Controllers/TransactionController.php(82): App\Helpers\JalaliHelper::toGregorian('\xDB\xB1\xDB\xB4\xDB\xB0\xDB\xB4/\xDB\xB0\xDB\xB6/\xDB...')
+#1 /home/udpragcf/fintra.vitren.ir/public/index.php(98): App\Controllers\TransactionController->store()
+#2 {main}
+  thrown in /home/udpragcf/fintra.vitren.ir/app/Helpers/JalaliHelper.php on line 42
+[19-Sep-2025 15:00:44 Asia/Tehran] PHP Fatal error:  Uncaught Error: Call to undefined method Morilog\Jalali\Jalalian::jalaliToGregorian() in /home/udpragcf/fintra.vitren.ir/app/Helpers/JalaliHelper.php:42
+Stack trace:
+#0 /home/udpragcf/fintra.vitren.ir/app/Controllers/TransactionController.php(82): App\Helpers\JalaliHelper::toGregorian('1404/06/28')
+#1 /home/udpragcf/fintra.vitren.ir/public/index.php(98): App\Controllers\TransactionController->store()
+#2 {main}
+  thrown in /home/udpragcf/fintra.vitren.ir/app/Helpers/JalaliHelper.php on line 42
+[19-Sep-2025 15:01:27 Asia/Tehran] PHP Fatal error:  Uncaught Error: Call to undefined method Morilog\Jalali\Jalalian::jalaliToGregorian() in /home/udpragcf/fintra.vitren.ir/app/Helpers/JalaliHelper.php:42
+Stack trace:
+#0 /home/udpragcf/fintra.vitren.ir/app/Controllers/LoanController.php(76): App\Helpers\JalaliHelper::toGregorian('1404/06/28')
+#1 /home/udpragcf/fintra.vitren.ir/public/index.php(193): App\Controllers\LoanController->store()
+#2 {main}
+  thrown in /home/udpragcf/fintra.vitren.ir/app/Helpers/JalaliHelper.php on line 42
+[19-Sep-2025 15:12:10 Asia/Tehran] PHP Fatal error:  Uncaught Error: Call to undefined method Morilog\Jalali\Jalalian::create() in /home/udpragcf/fintra.vitren.ir/app/Helpers/JalaliHelper.php:43
+Stack trace:
+#0 /home/udpragcf/fintra.vitren.ir/app/Controllers/LoanController.php(76): App\Helpers\JalaliHelper::toGregorian('1404/06/28')
+#1 /home/udpragcf/fintra.vitren.ir/public/index.php(193): App\Controllers\LoanController->store()
+#2 {main}
+  thrown in /home/udpragcf/fintra.vitren.ir/app/Helpers/JalaliHelper.php on line 43
+[19-Sep-2025 15:12:29 Asia/Tehran] PHP Fatal error:  Uncaught Error: Call to undefined method Morilog\Jalali\Jalalian::create() in /home/udpragcf/fintra.vitren.ir/app/Helpers/JalaliHelper.php:43
+Stack trace:
+#0 /home/udpragcf/fintra.vitren.ir/app/Controllers/LoanController.php(76): App\Helpers\JalaliHelper::toGregorian('1404/06/28')
+#1 /home/udpragcf/fintra.vitren.ir/public/index.php(193): App\Controllers\LoanController->store()
+#2 {main}
+  thrown in /home/udpragcf/fintra.vitren.ir/app/Helpers/JalaliHelper.php on line 43
+[19-Sep-2025 15:12:43 Asia/Tehran] PHP Fatal error:  Uncaught Error: Call to undefined method Morilog\Jalali\Jalalian::create() in /home/udpragcf/fintra.vitren.ir/app/Helpers/JalaliHelper.php:43
+Stack trace:
+#0 /home/udpragcf/fintra.vitren.ir/app/Controllers/LoanController.php(76): App\Helpers\JalaliHelper::toGregorian('\xDB\xB1\xDB\xB4\xDB\xB0\xDB\xB4/\xDB\xB0\xDB\xB6/\xDB...')
+#1 /home/udpragcf/fintra.vitren.ir/public/index.php(193): App\Controllers\LoanController->store()
+#2 {main}
+  thrown in /home/udpragcf/fintra.vitren.ir/app/Helpers/JalaliHelper.php on line 43
+[19-Sep-2025 15:14:20 Asia/Tehran] PHP Fatal error:  Uncaught Error: Call to undefined method Morilog\Jalali\Jalalian::create() in /home/udpragcf/fintra.vitren.ir/app/Helpers/JalaliHelper.php:43
+Stack trace:
+#0 /home/udpragcf/fintra.vitren.ir/app/Controllers/LoanController.php(76): App\Helpers\JalaliHelper::toGregorian('1404/06/28')
+#1 /home/udpragcf/fintra.vitren.ir/public/index.php(193): App\Controllers\LoanController->store()
+#2 {main}
+  thrown in /home/udpragcf/fintra.vitren.ir/app/Helpers/JalaliHelper.php on line 43
+[19-Sep-2025 15:14:50 Asia/Tehran] PHP Fatal error:  Uncaught Error: Call to undefined method Morilog\Jalali\Jalalian::create() in /home/udpragcf/fintra.vitren.ir/app/Helpers/JalaliHelper.php:43
+Stack trace:
+#0 /home/udpragcf/fintra.vitren.ir/app/Controllers/TransactionController.php(83): App\Helpers\JalaliHelper::toGregorian('1404/06/28')
+#1 /home/udpragcf/fintra.vitren.ir/public/index.php(98): App\Controllers\TransactionController->store()
+#2 {main}
+  thrown in /home/udpragcf/fintra.vitren.ir/app/Helpers/JalaliHelper.php on line 43
+[19-Sep-2025 15:20:04 Asia/Tehran] PHP Fatal error:  Uncaught Error: Call to undefined method App\Models\AuditLog::log() in /home/udpragcf/fintra.vitren.ir/app/Controllers/TransactionController.php:216
+Stack trace:
+#0 /home/udpragcf/fintra.vitren.ir/public/index.php(110): App\Controllers\TransactionController->destroy()
+#1 {main}
+  thrown in /home/udpragcf/fintra.vitren.ir/app/Controllers/TransactionController.php on line 216
+[19-Sep-2025 15:31:31 Asia/Tehran] PHP Notice:  Only variables should be passed by reference in /home/udpragcf/fintra.vitren.ir/app/Models/Loan.php on line 102
+[19-Sep-2025 15:31:31 Asia/Tehran] PHP Notice:  Only variables should be passed by reference in /home/udpragcf/fintra.vitren.ir/app/Models/Loan.php on line 102
+[19-Sep-2025 15:31:31 Asia/Tehran] PHP Notice:  Only variables should be passed by reference in /home/udpragcf/fintra.vitren.ir/app/Models/Loan.php on line 102
+[19-Sep-2025 15:31:31 Asia/Tehran] PHP Notice:  Only variables should be passed by reference in /home/udpragcf/fintra.vitren.ir/app/Models/Loan.php on line 102
+[19-Sep-2025 15:31:31 Asia/Tehran] PHP Notice:  Only variables should be passed by reference in /home/udpragcf/fintra.vitren.ir/app/Models/Loan.php on line 102
+[19-Sep-2025 15:31:31 Asia/Tehran] PHP Notice:  Only variables should be passed by reference in /home/udpragcf/fintra.vitren.ir/app/Models/Loan.php on line 102
+[19-Sep-2025 15:31:31 Asia/Tehran] PHP Notice:  Only variables should be passed by reference in /home/udpragcf/fintra.vitren.ir/app/Models/Loan.php on line 102
+[19-Sep-2025 15:31:31 Asia/Tehran] PHP Notice:  Only variables should be passed by reference in /home/udpragcf/fintra.vitren.ir/app/Models/Loan.php on line 102
+[19-Sep-2025 15:31:31 Asia/Tehran] PHP Notice:  Only variables should be passed by reference in /home/udpragcf/fintra.vitren.ir/app/Models/Loan.php on line 102
+[19-Sep-2025 15:31:31 Asia/Tehran] PHP Notice:  Only variables should be passed by reference in /home/udpragcf/fintra.vitren.ir/app/Models/Loan.php on line 102
+[19-Sep-2025 15:31:31 Asia/Tehran] PHP Notice:  Only variables should be passed by reference in /home/udpragcf/fintra.vitren.ir/app/Models/Loan.php on line 102
+[19-Sep-2025 15:31:31 Asia/Tehran] PHP Notice:  Only variables should be passed by reference in /home/udpragcf/fintra.vitren.ir/app/Models/Loan.php on line 102
+[19-Sep-2025 15:31:31 Asia/Tehran] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/udpragcf/fintra.vitren.ir/app/Models/Loan.php:102) in /home/udpragcf/fintra.vitren.ir/app/Controllers/LoanController.php on line 98

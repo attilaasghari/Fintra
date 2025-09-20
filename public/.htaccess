@@ -1,0 +1,81 @@
+# # Enable Rewrite Engine
+# <IfModule mod_rewrite.c>
+#     RewriteEngine On
+
+#     # Set default charset to UTF-8
+#     AddDefaultCharset UTF-8
+
+#     # Disable directory listing
+#     Options -Indexes
+
+#     # Set default file
+#     DirectoryIndex index.php
+
+#     # Redirect all requests to index.php (Front Controller Pattern)
+#     RewriteCond %{REQUEST_FILENAME} !-f
+#     RewriteCond %{REQUEST_FILENAME} !-d
+#     RewriteRule ^(.*)$ index.php [QSA,L]
+# </IfModule>
+
+# # Security Headers
+# <IfModule mod_headers.c>
+#     # Prevent Clickjacking
+#     Header set X-Frame-Options "SAMEORIGIN"
+    
+#     # Prevent MIME type sniffing
+#     Header set X-Content-Type-Options "nosniff"
+    
+#     # Enable XSS protection
+#     Header set X-XSS-Protection "1; mode=block"
+    
+#     # Strict Transport Security (Enable only if using HTTPS)
+#     # Header always set Strict-Transport-Security "max-age=63072000; includeSubDomains; preload"
+# </IfModule>
+
+# # Compression (improve performance)
+# <IfModule mod_deflate.c>
+#     AddOutputFilterByType DEFLATE text/html text/plain text/xml text/css text/javascript application/javascript application/json
+# </IfModule>
+
+# # Browser caching for static files
+# <IfModule mod_expires.c>
+#     ExpiresActive On
+#     ExpiresByType image/jpg "access plus 1 year"
+#     ExpiresByType image/jpeg "access plus 1 year"
+#     ExpiresByType image/gif "access plus 1 year"
+#     ExpiresByType image/png "access plus 1 year"
+#     ExpiresByType text/css "access plus 1 month"
+#     ExpiresByType application/pdf "access plus 1 month"
+#     ExpiresByType application/javascript "access plus 1 month"
+#     ExpiresByType application/x-javascript "access plus 1 month"
+#     ExpiresByType application/x-shockwave-flash "access plus 1 month"
+#     ExpiresByType image/x-icon "access plus 1 year"
+#     ExpiresDefault "access plus 2 days"
+# </IfModule>
+
+# # PHP Settings (if allowed by host)
+# <IfModule mod_php.c>
+#     php_flag display_errors Off
+#     php_flag log_errors On
+#     php_value error_log /home/yourusername/fint/logs/php_error.log
+#     php_value upload_max_filesize 20M
+#     php_value post_max_size 25M
+#     php_value max_execution_time 300
+#     php_value max_input_vars 3000
+# </IfModule>
+
+# # Custom Error Pages
+# ErrorDocument 404 /error_404.php
+# ErrorDocument 500 /error_500.php
+
+# # Block access to sensitive files
+# <FilesMatch "\.(env|log|sql|gitignore|md|lock)$">
+#     Order Allow,Deny
+#     Deny from all
+# </FilesMatch>
+
+# # Allow access to public assets
+# <FilesMatch "\.(css|js|jpg|jpeg|png|gif|webp|svg|woff|woff2|ttf|eot)$">
+#     Order Allow,Deny
+#     Allow from all
+# </FilesMatch>
